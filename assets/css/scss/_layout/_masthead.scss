@@ -1,0 +1,35 @@
+
+.layout--masthead {
+	padding: 1em 2em;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid var(--col-border);
+}
+
+
+.navigation {
+	@include no-bullets();
+	text-align: right;
+}
+
+.navigation li {
+	display: inline-block;
+	margin: 0 1em;
+}
+
+.navigation li a {
+	color: var(--col-text);
+	text-decoration: none;
+}
+
+.navigation li a:hover {
+	color: var(--col-typewest);	
+}
+
+.navigation li.current a {
+	color: var(--col-typewest);	
+	font-weight: bold;
+	padding-bottom: 0.1em;
+	border-bottom: 2px solid var(--col-typewest);
+}

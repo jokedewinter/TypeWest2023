@@ -1,0 +1,120 @@
+<!-- $title = Fritzchen by Nora Warschewski -->
+<!-- $student = Nora Warschewski -->
+<!-- $location = Ruhr Metropolis, Germany -->
+<!-- $project = Fritzchen -->
+<!-- $typeface = Fritzchen -->
+<!-- $fontname = FONTNAME -->
+<!-- $sentence = The quick brown fox jumps over the lazy dog  -->
+
+<!-- $fontfiles = 
+	"Fritzchen Light":"Fritz-Lightcl.woff",
+	"Fritzchen Regular":"Fritz-Regularcl.woff",
+	"Fritzchen Medium":"Fritz-Mediumcl.woff",
+	"Fritzchen Bold":"Fritz-Boldcl.woff",
+	"Fritzchen Light Italic":"Fritz-LightItaliccl.woff" -->
+	
+<!-- @include "../_local/_doctype.kit" -->
+
+<div class="typeface--info">
+	<section class="type-intro">
+		<h1 class=""><!-- $project --></h1>
+		<p class="">By <!-- $student --> &middot; <!-- $location --></p>
+	</section>
+		
+	<!-- @include "../_local/_typetester.kit" -->
+	
+	<div class="type-about">
+		<div class="about-typeface">
+			<h2><!-- $project --></h2>
+			<p>For my original project, I’m drawing inspiration from my family’s history. They immigrated from Poland (hence the name Warschewski) to the German Ruhr metropolis, where they were primarily involved in the mining industry—an industry that brought prosperity to the region at the time. Originally, inspired by blackletter and historical shapes, I moved into a more versatile direction suitable for a textface.</p>
+			<p>When people encounter this typeface, I want it to evoke a sense of warmth©, nostalgia® and fond memories™ without feeling outdated or German in a bad way. I envision a text typeface with some calligraphic aesthetic.</p>
+		</div>
+		<div class="about-student">
+			<h3>About <!-- $student --></h3>
+			<p>Nora Warschewski is a designer and researcher from the Ruhr metropolis in Germany. She is interested in all sorts of topics around type, accessibility, and sustainability. In her free time, she loves exploring her family’s history, reading books, gardening, and playing Mario Kart.</p>
+			<ul class="module--social">
+				<li>
+					<a href="instagram.com/nora.warschewski" target="_blank" title="Instagram" ><svg><use xlink:href="#instagram" /></svg></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+	
+<div class="specimens">
+	<figure>
+		<img src="../../assets/specimens/fritzchen/1 - Nora Warschewski.png" alt="">
+		<figcaption class="hidden"></figcaption>
+	</figure>
+	<figure>
+		<img src="../../assets/specimens/fritzchen/2 - Nora Warschewski.png" alt="">
+		<figcaption class="hidden"></figcaption>
+	</figure>
+	<figure>
+		<img src="../../assets/specimens/fritzchen/3 - Nora Warschewski.png" alt="">
+		<figcaption class="hidden"></figcaption>
+	</figure>
+	<figure>
+		<img src="../../assets/specimens/fritzchen/4 - Nora Warschewski.png" alt="">
+		<figcaption class="hidden"></figcaption>
+	</figure>
+	<figure>
+		<img src="../../assets/specimens/fritzchen/5 - Nora Warschewski.png" alt="">
+		<figcaption class="hidden"></figcaption>
+	</figure>
+	<figure>
+		<img src="../../assets/specimens/fritzchen/6 - Nora Warschewski.png" alt="">
+		<figcaption class="hidden"></figcaption>
+	</figure>
+	<figure>
+		<img src="../../assets/specimens/fritzchen/7 - Nora Warschewski.png" alt="">
+		<figcaption class="hidden"></figcaption>
+	</figure>
+	<figure>
+		<img src="../../assets/specimens/fritzchen/8 - Nora Warschewski.png" alt="">
+		<figcaption class="hidden"></figcaption>
+	</figure>
+	<figure>
+		<img src="../../assets/specimens/fritzchen/9 - Nora Warschewski.png" alt="">
+		<figcaption class="hidden"></figcaption>
+	</figure>
+	<figure>
+		<img src="../../assets/specimens/fritzchen/10 - Nora Warschewski.png" alt="">
+		<figcaption class="hidden"></figcaption>
+	</figure>
+</div>
+
+<div class="layout--specimen-nav">
+	<div class="nav--specific">
+		<a href="../TYPEFACENAME/index.html" class="prev">
+			<img src="../../assets/img/arrow-left.svg">
+			<div>
+				<p>Previous Project <span>FANTASTIC STUDENT</span></p>
+			</div>
+		</a>
+		<a href="../TYPEFACENAME/index.html" class="next">
+			<div>
+				<p>Next Project <span>FANTASTIC STUDENT</span></p>
+			</div>
+			<img src="../../assets/img/arrow-right.svg">
+		</a>
+	</div>
+	
+	<!-- @include "../_local/_random.kit" -->
+</div>
+
+<!-- @include "../../_main/_footer.kit" -->
+
+<script>
+function randomlink(){
+	var randomBtn = document.querySelector("#random");
+	var links = JSON.parse(randomBtn.dataset.links);
+	var randomSpecimen=Math.round(Math.random()*links.length)
+	window.location=links[randomSpecimen];
+}
+</script>
+
+</body>
+</html>

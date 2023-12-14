@@ -1,0 +1,11 @@
+/* Layout: people */
+
+.layout--people {
+	@include no-bullets();
+	margin: 1.25em 0;
+	@include list-with-stripes();
+}
+
+.layout--people li {
+	display: inline-block;
+}

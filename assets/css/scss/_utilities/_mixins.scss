@@ -1,0 +1,35 @@
+// General
+// -------------------------------------------
+
+@mixin no-bullets() {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+@mixin font-size($sizeValue: 1.6) {
+	font-size: ($sizeValue * 10) + px;
+	font-size: $sizeValue + rem;
+}
+
+// ------------------------------------------------------
+// Putting little stripes between list items
+// ------------------------------------------------------
+
+@mixin list-with-stripes() {
+    
+    li::after {
+		content: "|";
+        display: inline-block;
+        width: auto;
+        padding: 0 .3em;
+        /*font-size: 120%;*/
+        /*font-weight: 700;*/
+        text-align: center;
+        line-height: 1.5;
+		color: var(--col-typewest);
+    }
+
+	li:last-of-type::after { content: ""; }
+}
+

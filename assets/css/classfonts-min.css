@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'Fritzchen';
+	src: url('../specimens/fritzchen/Fritz-Regularcl.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Verruckt';
+	src: url('../specimens/verruckt/Origin-Black.woff') format('woff');
+}
+
+/*
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/typefaceName/Typeface-Style.woff') format('woff');
+}
+*/

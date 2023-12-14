@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Verruckt by Joke De Winter · Type West 2023</title>	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="canonical" href="#">	
+	<link rel="icon" type="image/x-icon" href="../../assets/img/typewest.svg">
+	<link rel="icon" sizes="192x192" type="image/jpg" href="../../assets/img/typewest.svg">
+	<link rel="icon" sizes="48x48" type="image/jpg" href="../../assets/img/typewest.svg">
+	<link rel="icon" sizes="32x32" type="image/jpg" href="../../assets/img/typewest.svg">
+	<link rel="icon" sizes="16x16" type="image/jpg" href="../../assets/img/typewest.svg">
+	<link rel="apple-touch-icon" sizes="180x180" type="image/jpg" href="../../assets/img/typewest.svg">
+	
+	<link rel="stylesheet" href="../../assets/css/screen.min.css">
+	<link rel="stylesheet" href="../../assets/css/fontsampler-skin.css">
+	<script src="../../assets/js/fontsampler.js"></script>
+	<script src="../../assets/js/fontsampler-skin.js"></script>
+</head>
+
+<body class="typeface">
+
+<header class="layout--masthead">
+	<a href="../../index.html" class="logo">
+		<img src="../../assets/img/typewest.svg" height="61" width="61" alt="TypeWest" title="TypeWest">
+	</a>
+	<ul class="navigation">
+		<li><a href="../../index.html">Fonts</a></li>
+		<li><a href="../../about/index.html">About</a></li>
+	</ul>
+</header>
+
+<div class="typeface--info">
+	<section class="type-intro">
+		<h1 class="">Verruckt</h1>
+		<p class="">By Joke De Winter &middot; Woodhouse Eaves, United Kingdom</p>
+	</section>
+		
+	<div class="type-tester">
+		
+		<div id="demo"></div>
+
+		<script>
+			(function(){
+				const fontFiles = {"Verruckt Black":"Origin-Black.woff","Verruckt Black Italic":"Origin-BlackItalic.woff","Verruckt Light":"Origin-Light.woff","Verruckt Light Italic":"Origin-LightItalic.woff"};
+				const slug = "verruckt";
+				const panagram = "Flamingos were among the most prized in Ancient Roman cuisine.";
+				
+				var fonts = [];
+				for (let key in fontFiles) {
+					var singleFont = {};
+					singleFont.name = key;
+					singleFont.files = ["/assets/specimens/" + slug + "/" + fontFiles[key]];
+					fonts.push(singleFont);
+				}
+						
+				var options = {
+					initialText: panagram,
+					order: [["fontfamily", "alignment", "fontsize"], "tester"],
+					config: {
+						fontfamily: {
+							label: false,
+							init:0
+						},
+						fontsize: {
+							init: 72,
+							step: 1,
+							min: 12,
+							max: 100,
+							unit: "px",
+							label: " ",
+						},
+						alignment: {
+							label: false,
+							choices: ["left|Left", "center|Center", "right|Right"],
+						},
+					}
+				}
+				var demo = new Fontsampler(document.getElementById("demo"), fonts, options)
+				FontsamplerSkin(demo)
+				demo.init()
+			})();
+		</script>
+		
+	</div>
+	
+	<div class="type-about">
+		<div class="about-typeface">
+			<h2 class="">Verruckt</h2>
+			<p class="">This is a crazy typeface.</p>
+		</div>
+		<div class="about-student">
+			<h3 class="">About Joke De Winter</h3>
+			<p>Joke is a Belgian graphic designer based in Woodhouse Eaves, United Kingdom. She started as a photographer and then became a self-employed web designer. After an intensive graphic design course she discovered a love for type design. Outside work she is a keen gardener and looking forward to the summer.</p>
+			<ul class="layout--social">
+				<li>
+					<a href="https://www.instagram.com/letterformarchive/" target="_blank" title="Instagram" ><svg class="svg__icon"><use xlink:href="#instagram" /></svg></a>
+				</li>
+				<li>
+					<a href="https://www.jokedewinter.co.uk" target="_blank" title="Website"><svg class="svg__icon"><use xlink:href="#website" /></svg></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--
+<div class="specimens">
+	<figure>
+		<img src="../../assets/specimens/TYPEFACENAME/IMAGE.jpg" class="" alt="..." title="...">
+		<figcaption class="hidden">...</figcaption>
+	</figure>
+	
+	<div class="aspect-w-16 aspect-h-9">
+		<iframe src="https://player.vimeo.com/video/..." width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</div>
+-->
+<div class="specimen-nav">
+	<div class="">
+		<a href="../TYPEFACENAME/index.html" class="prev">
+			<img src="../../assets/img/arrow-left.svg" class="">
+			<span class="">
+				<span class="">Previous Project</span>
+				<span class="">FANTASTIC STUDENT</span>
+			</span>
+		</a>
+		<a href="../TYPEFACENAME/index.html" class="next">
+			<span class="">
+				<span class="">Next Project</span>
+				<span class="">FANTASTIC STUDENT</span>
+			</span>
+			<img src="../../assets/img/arrow-right.svg" class="w-3">
+		</a>
+	</div>
+	
+	<div class="">
+		<button id="random" type="button" onClick="randomlink()" data-links="[&#34;/2022/typeface/acquaintance&#34;,&#34;/2022/typeface/alasitas&#34;,&#34;/2022/typeface/blitz&#34;,&#34;/2022/typeface/bona-terra&#34;,&#34;/2022/typeface/cork&#34;,&#34;/2022/typeface/deflection&#34;,&#34;/2022/typeface/del-rey&#34;,&#34;/2022/typeface/dulungan&#34;,&#34;/2022/typeface/eclectica&#34;,&#34;/2022/typeface/explorama&#34;,&#34;/2022/typeface/fermina&#34;,&#34;/2022/typeface/francine&#34;,&#34;/2022/typeface/goni&#34;,&#34;/2022/typeface/hathaway-text&#34;,&#34;/2022/typeface/jaguar&#34;,&#34;/2022/typeface/keres&#34;,&#34;/2022/typeface/ktv&#34;,&#34;/2022/typeface/lady-somerset&#34;,&#34;/2022/typeface/mai&#34;,&#34;/2022/typeface/pictura&#34;,&#34;/2022/typeface/platypi&#34;,&#34;/2022/typeface/realm&#34;,&#34;/2022/typeface/santo-domingo&#34;,&#34;/2022/typeface/score&#34;,&#34;/2022/typeface/sea-of-hills&#34;,&#34;/2022/typeface/sprout22&#34;,&#34;/2022/typeface/tadpole&#34;,&#34;/2022/typeface/torogoz&#34;,&#34;/2022/typeface/umbral&#34;,&#34;/2022/typeface/vaja&#34;,&#34;/2022/typeface/yor&#34;,&#34;/2022/typeface/zampa&#34;]" class="">I&rsquo;m feeling lucky! <i class="fa-shuffle"></i></button>
+	</div>
+</div>
+
+<script>
+function randomlink(){
+	var randomBtn = document.querySelector("#random");
+	var links = JSON.parse(randomBtn.dataset.links);
+	var randomSpecimen=Math.round(Math.random()*links.length)
+	window.location=links[randomSpecimen];
+}
+</script>
+
+
+<footer class="layout--colophon">
+	<h3>Presented to you by Type West Class of 2023</h3>
+	<p>Type West is a postgraduate certificate program in type design available in-person in San Francisco or online to students worldwide.</p>
+	<ul class="layout--social">
+		<li>
+			<a href="https://typo.social/@letterformarchive">
+				<img src="../../assets/img/mastodon.svg" target="_blank" height="24" width="24" alt="Mastodon" title="Mastodon"
+			></a>
+		</li>
+		<li>
+			<a href="https://www.instagram.com/letterformarchive/">
+				<img src="../../assets/img/instagram.svg" target="_blank" height="24" width="24" alt="Instagram" title="Instagram">
+			</a>
+		</li>
+		<li>
+			<a href="https://www.facebook.com/letterformarchive">
+				<img src="../../assets/img/facebook.svg" target="_blank" height="24" width="24" alt="Facebook" title="Facebook">
+			</a>
+		</li>
+		<li>
+			<a href="https://vimeo.com/letterformarchive">
+				<img src="../../assets/img/vimeo.svg" target="_blank" height="24" width="24" alt="Vimeo" title="Vimeo">
+			</a>
+		</li>
+		<li>
+			<a href="https://www.youtube.com/channel/UC7rn5scm6ysUapOzkAm65gw">
+				<img src="../../assets/img/youtube.svg" target="_blank" height="24" width="24" alt="YouTube" title="YouTube">
+			</a>
+		</li>
+	</ul>
+</footer>
+
+</body>
+</html>

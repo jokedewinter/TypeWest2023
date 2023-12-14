@@ -1,0 +1,151 @@
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Caroline Rodrigues de Lima &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Beto López Tristán &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Sarah Wong &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Rong Xiang &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Avery Lee Qiu Wen &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Nora Warschewski &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Joke de Winter &middot; Woodhouse Eaves, United Kingdom</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Aasawari S. Kulkarni &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By David Huang &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Allie Schmitz &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Tim Cronin &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Adriana Garcidueñas &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Alejandra Hernandez Chavez &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Rishi Murugesan &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Kurt F. Shaffert &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Raquel Rodriguez &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Jacob Witt &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By Quang Huy Lê &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
+
+	<li class="typeface">
+		<a href="typeface/TYPEFACENAME/index.html" class="">
+			<h2 style="font-family:'TYPEFACENAME'" class="">TYPEFACENAME</h2>
+			<p style="font-family:'TYPEFACENAME'" class="">A SENTENCE TO SHOWCASE THE TYPEFACE</p>
+			<p class="">By FANTASTIC STUDENT &middot; LOCATION, STATE, COUNTRY</p>
+		</a>
+	</li>
