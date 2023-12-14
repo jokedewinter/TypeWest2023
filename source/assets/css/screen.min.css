@@ -1,0 +1,491 @@
+/*
+CSS Styles for Type West 2023
+
+Author: Joke De Winter
+Author URI: https://www.jokedewinter.co.uk
+Version: 1.0
+*/
+@font-face {
+  font-family: 'Duplicate Sans';
+  src: url(../fonts/DuplicateSans-Regular-Web.woff) format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Duplicate Sans';
+  src: url(../fonts/DuplicateSans-Bold-Web.woff) format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+:root {
+  --font-body: 'Duplicate Sans', sans-serif;
+  --col-text: rgb(55, 65, 81);
+  /* #374151; /*55, 65, 81;*/
+  --col-text-reverse: rgb(255, 255, 255);
+  --col-text-light: rgb(107, 107, 107);
+  --col-page: rgb(255, 255, 255);
+  --col-bg: rgb(24, 24, 24);
+  --col-bg-grey: rgb(245, 245, 245);
+  /*	--col-box-light: #eee;
+	--col-box-dark: #ddd;
+ */
+  --col-border: rgb(229, 231, 235);
+  /*--col-typewest: 254, 9, 6; /* 229, 9, 6;*!/*/
+  --col-typewest: rgb(254, 9, 6);
+  /* 229, 9, 6;*/ }
+
+@font-face {
+  font-family: 'Fritzchen';
+  src: url("../specimens/fritzchen/Fritz-Regularcl.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Verruckt';
+  src: url("../specimens/verruckt/Verruckt-Black.woff") format("woff"); }
+
+/*
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/typefaceName/Typeface-Style.woff') format('woff');
+}
+*/
+/**
+ * -----------------------------------------------
+ * Site Settings
+ * ----------------------------------------------- */
+/* Reset
+ * ------------------------------------------------------------- */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0; }
+
+article, aside, details, figcaption, figure, footer,
+header, hgroup, menu, nav, section {
+  display: block; }
+
+button, fieldset, input, textarea, select, fieldset {
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: 0;
+  -webkit-appearance: none; }
+
+/* Accessibility
+ * ------------------------------------------------------------- */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  position: absolute !important;
+  height: 1px;
+  width: 1px; }
+
+/* Site settings
+ * ------------------------------------------------------------- */
+html {
+  font-size: 62.5%; }
+
+body {
+  /*	width: 99%;
+	margin: 0 auto;*/
+  font-family: var(--font-body);
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background: var(--col-page);
+  color: rgba(var(--col-text), 1);
+  overflow-x: hidden;
+  position: relative; }
+
+/* Main layout settings
+ * ------------------------------------------------------------- */
+/**
+ * -------------------------------------------------------------------------------------------------
+ * Base Styles
+ * -------------------------------------------------------------------------------------------------
+ */
+/* Headings and paragraphs
+ * ------------------------------------------------------------- */
+h1 {
+  font-size: 48px;
+  font-size: 4.8rem;
+  line-height: 1;
+  color: var(--col-typewest);
+  margin-bottom: 1em; }
+
+h2 {
+  font-size: 24px;
+  font-size: 2.4rem;
+  color: var(--col-typewest);
+  margin-bottom: 1em; }
+
+h3 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-weight: bold; }
+
+p {
+  margin-bottom: 0.75em; }
+
+/* Lists
+ * ------------------------------------------------------------- */
+/* Links 
+ * ------------------------------------------------------------- */
+a {
+  color: var(--col-typewest); }
+
+/* Other
+ * ------------------------------------------------------------- */
+hr {
+  border: 1px solid rgba(var(--col-border), 1);
+  margin: 3em 0; }
+
+/* Overrides
+ * ------------------------------------------------------------- */
+.fsjs-skin .dk-selected,
+.fsjs-skin .fsjs-button,
+.fsjs-skin .fsjs-block-type-buttongroup button,
+.fsjs-label-unit {
+  font-size: 16px !important;
+  font-size: 1.6rem !important; }
+
+.fsjs-block-type-textfield .fsjs-element {
+  padding: 6rem 0; }
+
+/* Images & media elements
+ * ------------------------------------------------------------- */
+img {
+  max-width: 100%;
+  /* Adhere to container width. */
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  display: block; }
+
+/*figure { margin: 1em 0; }
+figcaption { padding: 0.5em 0; }*/
+svg {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  fill: var(--col-page);
+  margin-top: -0.3em; }
+
+.about-student .module--social svg {
+  fill: var(--col-text); }
+
+/**
+ * -------------------------------------------------------------------------------------------------
+ * Page Styles
+ * -------------------------------------------------------------------------------------------------
+ */
+/* About page
+ */
+.about {
+  max-width: 65ch;
+  margin: 2rem auto;
+  padding: 2rem; }
+
+.about h2 {
+  margin-top: 2em; }
+
+/*
+ * Typeface intro 
+ * ----------------------------------------------------------- */
+.typeface {
+  background-color: var(--col-bg-grey); }
+
+.typeface--info {
+  margin: 3rem auto;
+  padding: 3rem; }
+
+.type-intro h1 {
+  margin-bottom: 0.5rem; }
+
+.type-intro p {
+  color: var(--col-text-light);
+  font-size: 16px;
+  font-size: 1.6rem; }
+
+.type-tester {
+  margin: 3.5rem 0; }
+
+.type-about {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-top: 1px solid var(--col-border);
+  padding-top: 4em; }
+
+.type-about > * {
+  margin-bottom: 3em; }
+
+.about-typeface p {
+  font-size: 24px;
+  font-size: 2.4rem; }
+
+.about-student h3 {
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: var(--col-typewest); }
+
+@media screen and (min-width: 64em) {
+  .type-about {
+    grid-template-columns: repeat(12, 1fr); }
+  .about-typeface {
+    grid-column: 1 / 7; }
+  .about-student {
+    grid-column: 8 / -1; } }
+
+/**
+ * -------------------------------------------------------------------------------------------------
+ * Layout
+ * -------------------------------------------------------------------------------------------------
+ */
+.layout--masthead {
+  padding: 1em 2em;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  border-bottom: 1px solid var(--col-border); }
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right; }
+
+.navigation li {
+  display: inline-block;
+  margin: 0 1em; }
+
+.navigation li a {
+  color: var(--col-text);
+  text-decoration: none; }
+
+.navigation li a:hover {
+  color: var(--col-typewest); }
+
+.navigation li.current a {
+  color: var(--col-typewest);
+  font-weight: bold;
+  padding-bottom: 0.1em;
+  border-bottom: 2px solid var(--col-typewest); }
+
+.layout--projects {
+  display: grid;
+  grid-template-columns: 1fr; }
+
+.layout--projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.layout--projects li {
+  border-bottom: 1px solid var(--col-border); }
+
+.layout--projects li:nth-of-type(odd) {
+  border-right: 1px solid var(--col-border); }
+
+@media screen and (min-width: 64em) {
+  .layout--projects {
+    grid-template-columns: repeat(2, 1fr); } }
+
+/* Layout: people */
+.layout--people {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 1.25em 0; }
+  .layout--people li::after {
+    content: "|";
+    display: inline-block;
+    width: auto;
+    padding: 0 .3em;
+    /*font-size: 120%;*/
+    /*font-weight: 700;*/
+    text-align: center;
+    line-height: 1.5;
+    color: var(--col-typewest); }
+  .layout--people li:last-of-type::after {
+    content: ""; }
+
+.layout--people li {
+  display: inline-block; }
+
+/* .colophon */
+.layout--colophon {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 2rem;
+  padding: 3rem 4rem;
+  background-color: var(--col-bg);
+  color: var(--col-text-reverse); }
+
+.layout--colophon > * {
+  font-size: 16px;
+  font-size: 1.6rem; }
+
+@media screen and (min-width: 64em) {
+  .layout--colophon {
+    grid-template-columns: repeat(3, 1fr); }
+  .layout--colophon p {
+    text-align: center; } }
+
+/**
+ * -------------------------------------------------------------------------------------------------
+ * Module
+ * -------------------------------------------------------------------------------------------------
+ */
+/*
+ * Type project intro button
+ * ----------------------------------------------------------- */
+.module--project {
+  overflow: hidden;
+  white-space: nowrap; }
+
+.module--project a {
+  display: block;
+  padding: 2rem 3rem;
+  text-decoration: none; }
+
+.module--project a > * {
+  color: var(--col-text); }
+
+.module--project a h2 {
+  font-size: 72px;
+  font-size: 7.2rem;
+  line-height: 1;
+  margin: 0; }
+
+.marquee {
+  font-size: 72px;
+  font-size: 7.2rem;
+  line-height: 1;
+  animation: marquee 21s linear infinite;
+  display: none;
+  padding-left: 75%;
+  margin: 0; }
+
+@keyframes marquee {
+  0% {
+    transform: translate(5%); }
+  to {
+    transform: translate(-110%); } }
+
+.module--project a:hover {
+  background-color: var(--col-typewest); }
+
+.module--project a:hover > * {
+  color: var(--col-text-reverse); }
+
+.module--project a:hover h2 {
+  display: none; }
+
+.module--project a:hover .marquee {
+  display: inline-block; }
+
+/* .social */
+.module--social {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.module--social li {
+  display: inline-block;
+  margin-right: 1.5rem; }
+
+.about-student .module--social {
+  margin-top: 1em; }
+
+@media screen and (min-width: 64em) {
+  .layout--colophon .module--social {
+    text-align: right; } }
+
+.layout--specimen-nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  border-top: 1px solid var(--col-border); }
+
+.nav--specific {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 9em; }
+
+.nav--specific a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 2em;
+  text-decoration: none;
+  color: var(--col-text); }
+
+.nav--specific a div {
+  flex: 1 1 auto; }
+
+.nav--specific .prev {
+  border-right: 1px solid var(--col-border); }
+
+.nav--specific a img {
+  width: 0.75em;
+  margin-right: 1em; }
+
+.nav--specific a div p {
+  font-size: 16px;
+  font-size: 1.6rem; }
+
+.nav--specific a div p span {
+  display: block;
+  font-weight: bold; }
+
+.layout--specimen-nav .nav--random {
+  padding: 1em 0; }
+
+.layout--specimen-nav .nav--random button {
+  border-radius: 9999px;
+  margin: 0 auto;
+  padding: 1em 1.5em;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: bold; }
+
+@media screen and (min-width: 64em) {
+  .layout--specimen-nav {
+    grid-template-columns: repeat(4, 1fr); }
+  .nav--specific {
+    grid-column: span 2; }
+  .layout--specimen-nav .nav--random {
+    grid-column: 4 / -1; } }
+
+.module--floating-nav {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  z-index: 50;
+  transform: translate(0, 0) rotate(-90deg) skew(0) skewY(0) scaleX(1) scaleY(1);
+  transform-origin: bottom right;
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, -5px 0 10px 0 rgba(254, 9, 6, 0.2);
+  border-top-left-radius: 1.5rem;
+  display: flex;
+  flex-direction: row; }
+
+.module--floating-nav button {
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1em 1em; }
+
+.nav--random button {
+  display: block;
+  background-color: var(--col-typewest);
+  color: var(--col-text-reverse); }
+
+.nav--random button img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.5em; }
+
+/*# sourceMappingURL=screen.min.css.map */
