@@ -7,13 +7,13 @@ Version: 1.0
 */
 @font-face {
   font-family: 'Duplicate Sans';
-  src: url(../webfonts/DuplicateSans-Regular-Web.woff) format("woff");
+  src: url(../fonts/DuplicateSans-Regular-Web.woff) format("woff");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: 'Duplicate Sans';
-  src: url(../webfonts/DuplicateSans-Bold-Web.woff) format("woff");
+  src: url(../fonts/DuplicateSans-Bold-Web.woff) format("woff");
   font-weight: 700;
   font-style: normal; }
 
@@ -34,6 +34,20 @@ Version: 1.0
   --col-typewest: rgb(254, 9, 6);
   /* 229, 9, 6;*/ }
 
+@font-face {
+  font-family: 'Fritzchen';
+  src: url("../specimens/fritzchen/Fritz-Regularcl.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Verruckt';
+  src: url("../specimens/verruckt/Verruckt-Black.woff") format("woff"); }
+
+/*
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/typefaceName/Typeface-Style.woff') format('woff');
+}
+*/
 /**
  * -----------------------------------------------
  * Site Settings
