@@ -21,25 +21,15 @@
 	color: var(--col-text);
 }
 
-.nav--specific a div {
-	flex: 1 1 auto;
-}
-
-.nav--specific .prev {
-	border-right: 1px solid var(--col-border);
-}
-
+.nav--specific a div { flex: 1 1 auto; }
+.nav--specific .prev { border-right: 1px solid var(--col-border); }
 
 .nav--specific a img {
 	width: 0.75em;
 	margin-right: 1em;
 }
 
-
-.nav--specific a div p {
-	@include font-size(1.6);
-}
-
+.nav--specific a div p { @include font-size(1.6); }
 
 .nav--specific a div p span {
 	display: block;
@@ -47,27 +37,20 @@
 }
 
 
-.layout--specimen-nav .nav--random {
-	padding: 1em 0;
-}
+
+.layout--specimen-nav .nav--random { padding: 1em 0; }
 
 .layout--specimen-nav .nav--random button {
 	border-radius: 9999px;
 	margin: 0 auto;
 	padding: 1em 1.5em;
+	@include font-size(1.6);
+	font-weight: bold;
 }
 
 @media screen and ( min-width: 64em ) {
 
-	.layout--specimen-nav {	
-		grid-template-columns: repeat(4, 1fr);
-	}
-	
-	.nav--specific {
-		grid-column: span 2;
-	}
-	
-	.layout--specimen-nav .nav--random {
-		grid-column: 4 / -1;
-	}
+	.layout--specimen-nav { grid-template-columns: repeat(4, 1fr); }
+	.nav--specific { grid-column: span 2; }
+	.layout--specimen-nav .nav--random { grid-column: 4 / -1; }
 }

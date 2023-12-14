@@ -432,7 +432,10 @@ svg {
 .layout--specimen-nav .nav--random button {
   border-radius: 9999px;
   margin: 0 auto;
-  padding: 1em 1.5em; }
+  padding: 1em 1.5em;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: bold; }
 
 @media screen and (min-width: 64em) {
   .layout--specimen-nav {
