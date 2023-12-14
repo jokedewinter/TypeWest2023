@@ -15,7 +15,6 @@
 	<link rel="apple-touch-icon" sizes="180x180" type="image/jpg" href="assets/images/typewest.svg">
 	
 	<link href="assets/css/screen.min.css" rel="stylesheet">
-	<!--<link href="assets/css/classfonts.css" rel="stylesheet">-->
 	
 	<!-- Google tag (gtag.js) -->
 	<!-- End of Google tag (gtag.js) -->
@@ -53,18 +52,6 @@
 	</ul>
 </header>
  
-<!--
-<div class="module--floating-nav">
-	<div class="nav--shuffle">
-		<button id="shuffle" type="button" class="">Reorder Grid</button>
-	</div>
-	<div class="nav--random">
-		<button id="random" type="button" onClick="randomlink()" data-links="[&#34;/typeface/fritzchen&#34;, &#34;/typeface/verruckt&#34;]">I&rsquo;m feeling lucky! <img src="../assets/images/shuffle.svg"></button>
-	</div>
-	
-	<!--
-</div>-->
-
 <section>
 	<ul id="classList" class="layout--projects">
 		<li class="module--project">
@@ -121,37 +108,7 @@
 	</ul>
 </footer>
 
-<!--<script>
-function randomlink(){
-	var randomBtn = document.querySelector("#random");
-	var links = JSON.parse(randomBtn.dataset.links);
-	var randomSpecimen=Math.round(Math.random()*links.length)
-	window.location=links[randomSpecimen];
-}
-</script>-->
 
-
-
-<!--<script>
-button = document.getElementById("shuffle");
-button.onclick = shuffle;
-function shuffle() {
-	var ul = document.getElementById('classList');
-	for (var i = ul.children.length; i >= 0; i--) {
-		ul.appendChild(ul.children[Math.random() * i | 0]);
-	}
-}
-window.onload = shuffle();
-</script>
-
-<script>
-function randomlink(){
-	var randomBtn = document.querySelector("#random");
-	var links = JSON.parse(randomBtn.dataset.links);
-	var randomSpecimen=Math.round(Math.random()*links.length)
-	window.location=links[randomSpecimen];
-}
-</script>-->
 
 </body>
 </html>
