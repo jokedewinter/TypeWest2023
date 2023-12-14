@@ -10,27 +10,25 @@
 
 .module--project a {
 	display: block;
-	padding: 2em;
+	padding: 2rem 3rem;
 	text-decoration: none;
 }
 
-.module--project a > * {
-	color: var(--col-text);
-}
+.module--project a > * { color: var(--col-text); }
 
 .module--project a h2 {
 	@include font-size(7.2);
-	line-height: 1.2;
+	line-height: 1;
 	margin: 0;
 }
 
-
 .marquee {
 	@include font-size(7.2);
-	line-height: 1.2;
+	line-height: 1;
 	animation: marquee 21s linear infinite;
 	display: none;
 	padding-left: 75%;
+	margin: 0;
 } 
 
 @keyframes marquee {
@@ -38,22 +36,7 @@
 	to { transform: translate(-110%); }
 }
 
-
-
-
-
-.module--project a:hover {
-	background-color: var(--col-typewest);
-}
-
-.module--project a:hover > * {
-	color: var(--col-text-reverse);
-}
-
-.module--project a:hover h2 {
-	display: none;
-}
-
-.module--project a:hover .marquee {
-	display: inline-block;
-}
+.module--project a:hover { background-color: var(--col-typewest); }
+.module--project a:hover > * { color: var(--col-text-reverse); }
+.module--project a:hover h2 { display: none; }
+.module--project a:hover .marquee { display: inline-block; }

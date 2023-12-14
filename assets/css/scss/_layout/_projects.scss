@@ -6,26 +6,13 @@
 	grid-template-columns: 1fr;
 }
 
-.layout--projects ul {
-	@include no-bullets();	
-}
-
-.layout--projects li {
-	border-bottom: 1px solid var(--col-border);
-}
-
-.layout--projects li:nth-of-type(odd) {
-	border-right: 1px solid var(--col-border);
-}
-
+.layout--projects ul { @include no-bullets(); }
+.layout--projects li { border-bottom: 1px solid var(--col-border); }
+.layout--projects li:nth-of-type(odd) { border-right: 1px solid var(--col-border); }
 
 @media screen and ( min-width: 64em ) {
 	
-	.layout--projects {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	
+	.layout--projects { grid-template-columns: repeat(2, 1fr); }
 }
 
 
