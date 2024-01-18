@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 CSS Styles for Type West 2023
 
@@ -39,7 +40,7 @@ Version: 1.0
   src: url("../specimens/fritzchen/Fritz-Regularcl.woff") format("woff"); }
 
 @font-face {
-  font-family: 'Verruckt';
+  font-family: 'Verrückt';
   src: url("../specimens/verruckt/Verruckt-Black.woff") format("woff"); }
 
 /*
