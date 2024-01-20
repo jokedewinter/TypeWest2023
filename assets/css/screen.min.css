@@ -452,6 +452,10 @@ figure:hover figcaption {
 .module--project a:hover .marquee {
   display: inline-block; }
 
+@media screen and (max-width: 54.99em) {
+  .fsjs-skin > .fsjs-wrapper {
+    display: block !important; } }
+
 /* .social */
 .module--social {
   list-style: none;

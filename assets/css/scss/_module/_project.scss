@@ -44,3 +44,11 @@
 .module--project a:hover > * { color: var(--col-text-reverse); }
 .module--project a:hover h2 { display: none; }
 .module--project a:hover .marquee { display: inline-block; }
+
+
+@media screen and ( max-width: 54.99em ) {
+
+	.fsjs-skin > .fsjs-wrapper {
+		display: block !important;
+	}
+}
