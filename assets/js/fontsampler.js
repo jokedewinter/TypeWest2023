@@ -188,7 +188,7 @@ module.exports = {
         },
         lineheight: {
             unit: "%",
-            init: 100,
+            init: 120,
             min: 60,
             max: 120,
             step: 5,
