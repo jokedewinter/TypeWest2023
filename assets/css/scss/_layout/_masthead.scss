@@ -21,6 +21,7 @@
 .navigation li a {
 	color: var(--col-text);
 	text-decoration: none;
+	@include link-effect();
 }
 
 .navigation li a:hover {

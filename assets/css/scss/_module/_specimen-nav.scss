@@ -19,6 +19,11 @@
 	
 	text-decoration: none;
 	color: var(--col-text);
+	@include link-effect();
+}
+
+.nav--specific a:hover {
+	color: var(--col-typewest);	
 }
 
 .nav--specific a div { flex: 1 1 auto; }
