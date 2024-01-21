@@ -359,15 +359,17 @@ figure img {
 
 figcaption {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2em;
-  background-color: var(--col-page);
+  top: 0;
+  right: 0;
+  width: 2em;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
   z-index: 100;
-  padding: 0.1em 1em;
-  text-align: right;
+  padding: 1em 0.1em;
+  text-align: left;
   opacity: 0;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -ms-transition-property: all;
