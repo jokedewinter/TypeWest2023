@@ -35,30 +35,127 @@ Version: 1.0
   --col-typewest: rgb(254, 9, 6);
   /* 229, 9, 6;*/ }
 
+/*
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE01/FONT.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE02/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE03/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE04/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE05/FONT.woff') format('woff');
+}
+*/
 @font-face {
   font-family: 'TBD-Sinew';
   src: url("../specimens/sinew/TBD-Sinew-Regular-HumbertoLopez.woff") format("woff"); }
 
+/*
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE07/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE08/FONT.woff') format('woff');
+}
+*/
+@font-face {
+  font-family: 'Pasteur';
+  src: url("../specimens/pasteur/cheeseVF-DavidHuang.woff") format("woff"); }
+
+/*
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE10/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE11/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE12/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE13/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE14/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE15/FONT.woff') format('woff');
+}
+*/
+@font-face {
+  font-family: 'Verrückt';
+  src: url("../specimens/verruckt/VerrucktDisplay-Black.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Sansome';
+  src: url("../specimens/sansome/Sansome-Bold_otf-JoshuaYule.woff2") format("woff"); }
+
+/*
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE18/FONT.woff') format('woff');
+}
+*/
 @font-face {
   font-family: 'Kermie';
   src: url("../specimens/kermie/Kermie-Italic_otf-LauraTsunoda.woff2") format("woff"); }
 
 @font-face {
-  font-family: 'Pasteur';
-  src: url("../specimens/pasteur/cheeseVF-DavidHuang.woff") format("woff"); }
-
-@font-face {
   font-family: 'Fritzchen';
   src: url("../specimens/fritzchen/Fritz-Regularcl.woff") format("woff"); }
-
-@font-face {
-  font-family: 'Verrückt';
-  src: url("../specimens/verruckt/VerrucktDisplay-Black.woff") format("woff"); }
 
 /*
 @font-face {
 	font-family: 'TypefaceName';
-	src: url('../specimens/typefaceName/Typeface-Style.woff') format('woff');
+	src: url('../specimens/TYPEFACE21/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE22/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE23/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE24/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE25/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE26/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE27/FONT.woff') format('woff');
+}
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE28/FONT.woff') format('woff');
 }
 */
 /**
