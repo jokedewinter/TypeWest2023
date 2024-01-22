@@ -48,11 +48,11 @@ Version: 1.0
 	font-family: 'TypefaceName';
 	src: url('../specimens/TYPEFACE03/FONT.woff') format('woff');
 }
-@font-face {
-	font-family: 'TypefaceName';
-	src: url('../specimens/TYPEFACE04/FONT.woff') format('woff');
-}
 */
+@font-face {
+  font-family: 'Aldegra';
+  src: url("../specimens/aldegra/Allie-Schmitz_Aldegra-BQ-Light_Type-West-Online-2023_DEMO-AllieSchmitz.woff") format("woff"); }
+
 @font-face {
   font-family: 'Venusville';
   src: url("../specimens/venusville/Venusville-Regular-LeeQiuWen.woff") format("woff"); }
