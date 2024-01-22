@@ -555,6 +555,11 @@ figure:hover figcaption {
 .module--project a:hover .marquee {
   display: inline-block; }
 
+@media screen and (max-width: 34.99em) {
+  .module--project a h2 {
+    font-size: 52px;
+    font-size: 5.2rem; } }
+
 @media screen and (max-width: 54.99em) {
   .fsjs-skin > .fsjs-wrapper {
     display: block !important; } }
