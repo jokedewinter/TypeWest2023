@@ -95,6 +95,31 @@
 						},
 					}
 				}
+				
+				if (window.screen.width <= 768) {
+					var options = {
+						initialText: panagram,
+						order: [["fontfamily", "alignment", "fontsize"], "tester"],
+						config: {
+							fontfamily: {
+								label: false,
+							init:0
+						},
+							fontsize: {
+								init: 32,
+								step: 1,
+								min: 12,
+								max: 100,
+								unit: "px",
+								label: " ",
+							},
+							alignment: {
+								label: false,
+								choices: ["left|Left", "center|Center", "right|Right"],
+							},
+						}
+					}
+				}
 				var demo = new Fontsampler(document.getElementById("demo"), fonts, options)
 				FontsamplerSkin(demo)
 				demo.init()
