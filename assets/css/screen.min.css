@@ -110,12 +110,10 @@ Version: 1.0
   font-family: 'Sansome';
   src: url("../specimens/sansome/Sansome-Bold_otf-JoshuaYule.woff2") format("woff"); }
 
-/*
 @font-face {
-	font-family: 'TypefaceName';
-	src: url('../specimens/TYPEFACE18/FONT.woff') format('woff');
-}
-*/
+  font-family: 'Gashlycrumb';
+  src: url("../specimens/gashlycrumb/TW_Gashlycrumb_202R-Roman-KurtShaffert.woff") format("woff"); }
+
 @font-face {
   font-family: 'Kermie';
   src: url("../specimens/kermie/Kermie-Italic_otf-LauraTsunoda.woff2") format("woff"); }
