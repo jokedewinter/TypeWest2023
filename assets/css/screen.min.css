@@ -92,11 +92,11 @@ Version: 1.0
 	font-family: 'TypefaceName';
 	src: url('../specimens/TYPEFACE13/FONT.woff') format('woff');
 }
-@font-face {
-	font-family: 'TypefaceName';
-	src: url('../specimens/TYPEFACE14/FONT.woff') format('woff');
-}
 */
+@font-face {
+  font-family: 'Lindsay Grotesk';
+  src: url("../specimens/lindsay-grotesk/LindsayGrotesk-Regular.woff") format("woff"); }
+
 @font-face {
   font-family: 'Undertone';
   src: url("../specimens/undertone/Undertone-Regular-JMD.woff") format("woff"); }
