@@ -136,10 +136,12 @@ Version: 1.0
 	font-family: 'TypefaceName';
 	src: url('../specimens/TYPEFACE23/FONT.woff') format('woff');
 }
+*/
 @font-face {
-	font-family: 'TypefaceName';
-	src: url('../specimens/TYPEFACE24/FONT.woff') format('woff');
-}
+  font-family: 'Concrux';
+  src: url("../specimens/concrux/ConcruxCondensed_Bold-RishiMurugesan.woff") format("woff"); }
+
+/*
 @font-face {
 	font-family: 'TypefaceName';
 	src: url('../specimens/TYPEFACE25/FONT.woff') format('woff');
