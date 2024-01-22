@@ -197,8 +197,6 @@ html {
   font-size: 62.5%; }
 
 body {
-  /*	width: 99%;
-	margin: 0 auto;*/
   font-family: var(--font-body);
   font-size: 18px;
   font-size: 1.8rem;
@@ -207,7 +205,9 @@ body {
   background: var(--col-page);
   color: rgba(var(--col-text), 1);
   overflow-x: hidden;
-  position: relative; }
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto; }
 
 /* Main layout settings
  * ------------------------------------------------------------- */
@@ -354,7 +354,8 @@ figure {
 
 figure img {
   position: relative;
-  z-index: 99; }
+  z-index: 99;
+  margin: 0 auto; }
 
 figcaption {
   position: absolute;
