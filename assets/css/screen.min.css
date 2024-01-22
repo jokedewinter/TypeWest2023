@@ -80,11 +80,11 @@ Version: 1.0
   font-family: 'Unistylist';
   src: url("../specimens/unistylist/UnistylistRegular.woff") format("woff"); }
 
-/*
 @font-face {
-	font-family: 'TypefaceName';
-	src: url('../specimens/TYPEFACE11/FONT.woff') format('woff');
-}
+  font-family: 'Cubey';
+  src: url("../specimens/cubey/Cubey-Medium-GloriaBoadwee.woff") format("woff"); }
+
+/*
 @font-face {
 	font-family: 'TypefaceName';
 	src: url('../specimens/TYPEFACE12/FONT.woff') format('woff');
