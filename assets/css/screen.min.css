@@ -126,10 +126,12 @@ Version: 1.0
 	font-family: 'TypefaceName';
 	src: url('../specimens/TYPEFACE21/FONT.woff') format('woff');
 }
+*/
 @font-face {
-	font-family: 'TypefaceName';
-	src: url('../specimens/TYPEFACE22/FONT.woff') format('woff');
-}
+  font-family: 'Momentum';
+  src: url("../specimens/momentum/momentum-black-1-20-24-RaquelRodriguez.woff") format("woff"); }
+
+/*
 @font-face {
 	font-family: 'TypefaceName';
 	src: url('../specimens/TYPEFACE23/FONT.woff') format('woff');
