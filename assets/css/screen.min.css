@@ -35,12 +35,11 @@ Version: 1.0
   --col-typewest: rgb(254, 9, 6);
   /* 229, 9, 6;*/ }
 
-/*
 @font-face {
-	font-family: 'TypefaceName';
-	src: url('../specimens/TYPEFACE01/FONT.woff') format('woff');
-}
+  font-family: 'Ellora';
+  src: url("../specimens/ellora/Ellora-Regular-AasawariKulkarni.woff") format("woff"); }
 
+/*
 @font-face {
 	font-family: 'TypefaceName';
 	src: url('../specimens/TYPEFACE02/FONT.woff') format('woff');
