@@ -527,7 +527,7 @@ figure:hover figcaption {
   margin: 0;
   font-weight: normal; }
 
-.module--project a p {
+.module--project a p.author {
   white-space: normal; }
 
 .marquee {
