@@ -39,12 +39,10 @@ Version: 1.0
   font-family: 'Ellora';
   src: url("../specimens/ellora/Ellora-Regular-AasawariKulkarni.woff") format("woff"); }
 
-/*
 @font-face {
-	font-family: 'TypefaceName';
-	src: url('../specimens/TYPEFACE02/FONT.woff') format('woff');
-}
-*/
+  font-family: 'Hell.Inc';
+  src: url("../specimens/hell-inc/Hell.Inc_Regular-AdrianaGarcidueñas.woff") format("woff"); }
+
 @font-face {
   font-family: 'Juntxs';
   src: url("../specimens/juntxs/Term3_011-Bold-AleHernandez.woff") format("woff"); }
