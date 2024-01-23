@@ -527,6 +527,9 @@ figure:hover figcaption {
   margin: 0;
   font-weight: normal; }
 
+.module--project a p {
+  white-space: normal; }
+
 .marquee {
   font-size: 72px;
   font-size: 7.2rem;

@@ -27,6 +27,10 @@
 	font-weight: normal;
 }
 
+.module--project a p {
+	white-space: normal;
+}
+
 .marquee {
 	@include font-size(7.2);
 	line-height: 1;
