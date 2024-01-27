@@ -59,11 +59,11 @@ Version: 1.0
   font-family: 'TBD-Sinew';
   src: url("../specimens/sinew/TBD-Sinew-Regular-HumbertoLopez.woff") format("woff"); }
 
-/*
 @font-face {
-	font-family: 'TypefaceName';
-	src: url('../specimens/TYPEFACE07/FONT.woff') format('woff');
-}
+  font-family: 'Symphony';
+  src: url("../specimens/symphony/Symphony_italic-Regular-CarolineLima.woff") format("woff"); }
+
+/*
 @font-face {
 	font-family: 'TypefaceName';
 	src: url('../specimens/TYPEFACE08/FONT.woff') format('woff');
