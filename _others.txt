@@ -1,0 +1,28 @@
+<!-- $status = empty -->
+<!-- $student = Clara Cayosa -->
+<!-- $location = USA -->
+<!-- $project = TYPEFACE -->
+<!-- $typeface = TYPEFACE08 -->
+<!-- $sentence = A SENTENCE -->
+<!-- @include "_project.kit" -->		
+
+<!-- $status = empty -->
+<!-- $student = Reed Townsend Jones -->
+<!-- $location = USA -->
+<!-- $project = TYPEFACE -->
+<!-- $typeface = TYPEFACE23 -->
+<!-- $sentence = A SENTENCE -->
+<!-- @include "_project.kit" -->		
+
+/*
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE08/FONT.woff') format('woff');
+}
+*/
+/*
+@font-face {
+	font-family: 'TypefaceName';
+	src: url('../specimens/TYPEFACE23/FONT.woff') format('woff');
+}
+*/

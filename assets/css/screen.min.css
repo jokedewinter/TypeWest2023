@@ -27,11 +27,7 @@ Version: 1.0
   --col-page: rgb(255, 255, 255);
   --col-bg: rgb(24, 24, 24);
   --col-bg-grey: rgb(245, 245, 245);
-  /*	--col-box-light: #eee;
-	--col-box-dark: #ddd;
- */
   --col-border: rgb(229, 231, 235);
-  /*--col-typewest: 254, 9, 6; /* 229, 9, 6;*!/*/
   --col-typewest: rgb(254, 9, 6);
   /* 229, 9, 6;*/ }
 
@@ -63,12 +59,6 @@ Version: 1.0
   font-family: 'Symphony';
   src: url("../specimens/symphony/Symphony_italic-Regular-CarolineLima.woff") format("woff"); }
 
-/*
-@font-face {
-	font-family: 'TypefaceName';
-	src: url('../specimens/TYPEFACE08/FONT.woff') format('woff');
-}
-*/
 @font-face {
   font-family: 'Pasteur';
   src: url("../specimens/pasteur/cheeseVF-DavidHuang.woff") format("woff"); }
@@ -125,12 +115,6 @@ Version: 1.0
   font-family: 'Momentum';
   src: url("../specimens/momentum/momentum-black-1-20-24-RaquelRodriguez.woff") format("woff"); }
 
-/*
-@font-face {
-	font-family: 'TypefaceName';
-	src: url('../specimens/TYPEFACE23/FONT.woff') format('woff');
-}
-*/
 @font-face {
   font-family: 'Concrux';
   src: url("../specimens/concrux/ConcruxCondensed_Bold-RishiMurugesan.woff") format("woff"); }
@@ -504,9 +488,6 @@ figure:hover figcaption {
 .module--project {
   overflow: hidden;
   white-space: nowrap; }
-
-.module--project.empty {
-  opacity: 0.5; }
 
 .module--project a {
   display: block;
