@@ -103,7 +103,7 @@ Version: 1.0
 
 @font-face {
   font-family: 'Sansome';
-  src: url("../specimens/sansome/Sansome-Bold_ttf.woff2") format("woff2"); }
+  src: url("../specimens/sansome/Sansome-Bold_otf.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Gashlycrumb';
