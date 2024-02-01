@@ -19,27 +19,17 @@ h3 {
 	font-weight: bold;
 }
 
-p {
-	margin-bottom: 0.75em;
-}
-
-
-/* Lists
- * ------------------------------------------------------------- */
-
+p { margin-bottom: 0.75em; }
 
 
 /* Links 
  * ------------------------------------------------------------- */
 
-a {
-	color: var(--col-typewest);
-}
+a { color: var(--col-typewest); }
 
 
 /* Other
  * ------------------------------------------------------------- */
-
 
 hr {
 	border: 1px solid rgba(var(--col-border), 1);
@@ -58,6 +48,4 @@ hr {
 	font-size: 1.6rem !important;
 }
 
-.fsjs-block-type-textfield .fsjs-element {
-	padding:6rem 0;
-}
+.fsjs-block-type-textfield .fsjs-element { padding:6rem 0; }

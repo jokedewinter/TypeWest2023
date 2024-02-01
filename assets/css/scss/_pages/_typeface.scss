@@ -2,31 +2,21 @@
  * Typeface intro 
  * ----------------------------------------------------------- */
 
-.typeface {
-	background-color: var(--col-bg-grey);
-}
+.typeface { background-color: var(--col-bg-grey); }
 
 .typeface--info {
 	margin: 3rem auto;
 	padding: 3rem;
 }
 
-.type-intro h1 {
-	margin-bottom: 0.5rem;;
-}
+.type-intro h1 { margin-bottom: 0.5rem; }
 
 .type-intro p {
 	color: var(--col-text-light);
 	@include font-size(1.6);
 }
 
-
-.type-tester {
-	margin: 3.5rem 0;
-}
-
-
-
+.type-tester { margin: 3.5rem 0; }
 
 .type-about {
 	display: grid;
@@ -35,44 +25,33 @@
 	padding-top: 4em;
 }
 
-.type-about > * {
-	margin-bottom: 3em;
-}
-
-.about-typeface p {
-	@include font-size(2.4);
-}
+.type-about > * { margin-bottom: 3em; }
+.about-typeface p { @include font-size(2.4); }
 
 .about-student h3 {
 	@include font-size(1.6);
 	color: var(--col-typewest);
-	
 }
 
 @media screen and ( min-width: 64em ) {
 	
-	.type-about {
-		grid-template-columns: repeat(12, 1fr);
-	}
+	.type-about { grid-template-columns: repeat(12, 1fr); }
 
 	.about-typeface { grid-column: 1 / 7; }
 	.about-student { grid-column: 8 / -1; }
-	
 }
 
+/*
+ * Typeface Figcaption 
+ * ----------------------------------------------------------- */
 
-/* Figcaption */
-
-figure {
-	position: relative;
-}
+figure { position: relative; }
 
 figure img {
 	position: relative;
 	z-index: 99;
 	margin: 0 auto;
 }
-
 
 figcaption {
 	position: absolute;
@@ -90,6 +69,4 @@ figcaption {
 	@include link-effect();
 }
 
-figure:hover figcaption {
-	opacity: 1;
-}
+figure:hover figcaption { opacity: 1; }

@@ -1,4 +1,6 @@
-/* Layout: people */
+/*
+ * People 
+ * ----------------------------------------------------------- */
 
 .layout--people {
 	@include no-bullets();
@@ -6,6 +8,4 @@
 	@include list-with-stripes();
 }
 
-.layout--people li {
-	display: inline-block;
-}
+.layout--people li { display: inline-block; }

@@ -1,4 +1,6 @@
-/* .colophon */
+/*
+ * Colophon
+ * ----------------------------------------------------------- */
 
 .layout--colophon {
 	display: grid;
@@ -10,17 +12,11 @@
 	color: var(--col-text-reverse);
 }
 
-.layout--colophon > * {
-	@include font-size(1.6);
-}
-
+.layout--colophon > * { @include font-size(1.6); }
 
 @media screen and ( min-width: 64em ) {
 	
-	.layout--colophon {
-		grid-template-columns: repeat(3, 1fr);
-	}	
-	
+	.layout--colophon { grid-template-columns: repeat(3, 1fr); }	
 	.layout--colophon p { text-align: center; }
 }
 

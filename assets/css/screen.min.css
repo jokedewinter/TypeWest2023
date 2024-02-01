@@ -21,15 +21,13 @@ Version: 1.0
 :root {
   --font-body: 'Duplicate Sans', sans-serif;
   --col-text: rgb(55, 65, 81);
-  /* #374151; /*55, 65, 81;*/
   --col-text-reverse: rgb(255, 255, 255);
   --col-text-light: rgb(107, 107, 107);
   --col-page: rgb(255, 255, 255);
   --col-bg: rgb(24, 24, 24);
   --col-bg-grey: rgb(245, 245, 245);
   --col-border: rgb(229, 231, 235);
-  --col-typewest: rgb(254, 9, 6);
-  /* 229, 9, 6;*/ }
+  --col-typewest: rgb(254, 9, 6); }
 
 @font-face {
   font-family: 'Ellora';
@@ -135,10 +133,6 @@ Version: 1.0
   font-family: 'Physique';
   src: url("../specimens/physique/Physiqueab-Ultra-TimothyCronin.woff") format("woff"); }
 
-/**
- * -----------------------------------------------
- * Site Settings
- * ----------------------------------------------- */
 /* Reset
  * ------------------------------------------------------------- */
 * {
@@ -187,13 +181,6 @@ body {
   max-width: 1920px;
   margin: 0 auto; }
 
-/* Main layout settings
- * ------------------------------------------------------------- */
-/**
- * -------------------------------------------------------------------------------------------------
- * Base Styles
- * -------------------------------------------------------------------------------------------------
- */
 /* Headings and paragraphs
  * ------------------------------------------------------------- */
 h1 {
@@ -217,8 +204,6 @@ h3 {
 p {
   margin-bottom: 0.75em; }
 
-/* Lists
- * ------------------------------------------------------------- */
 /* Links 
  * ------------------------------------------------------------- */
 a {
@@ -251,8 +236,6 @@ img {
   /* Make sure images are scaled correctly. */
   display: block; }
 
-/*figure { margin: 1em 0; }
-figcaption { padding: 0.5em 0; }*/
 svg {
   width: 24px;
   height: 24px;
@@ -264,13 +247,124 @@ svg {
 .about-student .module--social svg {
   fill: var(--col-text); }
 
-/**
- * -------------------------------------------------------------------------------------------------
- * Page Styles
- * -------------------------------------------------------------------------------------------------
- */
-/* About page
- */
+/*
+ * Masthead 
+ * ----------------------------------------------------------- */
+.layout--masthead {
+  padding: 1em 2em;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  border-bottom: 1px solid var(--col-border); }
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right; }
+
+.navigation li {
+  display: inline-block;
+  margin: 0 1em; }
+
+.navigation li a {
+  color: var(--col-text);
+  text-decoration: none;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -ms-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out; }
+
+.navigation li a:hover {
+  color: var(--col-typewest); }
+
+.navigation li.current a {
+  color: var(--col-typewest);
+  font-weight: bold;
+  padding-bottom: 0.1em;
+  border-bottom: 2px solid var(--col-typewest); }
+
+/*
+ * Projects
+ * ----------------------------------------------------------- */
+.layout--projects {
+  display: grid;
+  grid-template-columns: 1fr; }
+
+.layout--projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.layout--projects li {
+  border-bottom: 1px solid var(--col-border); }
+
+.layout--projects li:nth-of-type(odd) {
+  border-right: 1px solid var(--col-border); }
+
+@media screen and (min-width: 55em) {
+  .layout--projects {
+    grid-template-columns: repeat(2, 1fr); } }
+
+/*
+ * People 
+ * ----------------------------------------------------------- */
+.layout--people {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 1.25em 0; }
+  .layout--people li::after {
+    content: "|";
+    display: inline-block;
+    width: auto;
+    padding: 0 .3em;
+    /*font-size: 120%;*/
+    /*font-weight: 700;*/
+    text-align: center;
+    line-height: 1.5;
+    color: var(--col-typewest); }
+  .layout--people li:last-of-type::after {
+    content: ""; }
+
+.layout--people li {
+  display: inline-block; }
+
+/*
+ * Colophon
+ * ----------------------------------------------------------- */
+.layout--colophon {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 2rem;
+  padding: 3rem 4rem;
+  background-color: var(--col-bg);
+  color: var(--col-text-reverse); }
+
+.layout--colophon > * {
+  font-size: 16px;
+  font-size: 1.6rem; }
+
+@media screen and (min-width: 64em) {
+  .layout--colophon {
+    grid-template-columns: repeat(3, 1fr); }
+  .layout--colophon p {
+    text-align: center; } }
+
+/*
+ * About page 
+ * ----------------------------------------------------------- */
 .about {
   max-width: 65ch;
   margin: 2rem auto;
@@ -326,7 +420,9 @@ svg {
   .about-student {
     grid-column: 8 / -1; } }
 
-/* Figcaption */
+/*
+ * Typeface Figcaption 
+ * ----------------------------------------------------------- */
 figure {
   position: relative; }
 
@@ -367,121 +463,6 @@ figcaption {
 figure:hover figcaption {
   opacity: 1; }
 
-/**
- * -------------------------------------------------------------------------------------------------
- * Layout
- * -------------------------------------------------------------------------------------------------
- */
-.layout--masthead {
-  padding: 1em 2em;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-  border-bottom: 1px solid var(--col-border); }
-
-.navigation {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: right; }
-
-.navigation li {
-  display: inline-block;
-  margin: 0 1em; }
-
-.navigation li a {
-  color: var(--col-text);
-  text-decoration: none;
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -ms-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0.7s;
-  -moz-transition-duration: 0.7s;
-  -ms-transition-duration: 0.7s;
-  -o-transition-duration: 0.7s;
-  transition-duration: 0.7s;
-  -webkit-transition-timing-function: ease-in-out;
-  -moz-transition-timing-function: ease-in-out;
-  -ms-transition-timing-function: ease-in-out;
-  -o-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out; }
-
-.navigation li a:hover {
-  color: var(--col-typewest); }
-
-.navigation li.current a {
-  color: var(--col-typewest);
-  font-weight: bold;
-  padding-bottom: 0.1em;
-  border-bottom: 2px solid var(--col-typewest); }
-
-.layout--projects {
-  display: grid;
-  grid-template-columns: 1fr; }
-
-.layout--projects ul {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-
-.layout--projects li {
-  border-bottom: 1px solid var(--col-border); }
-
-.layout--projects li:nth-of-type(odd) {
-  border-right: 1px solid var(--col-border); }
-
-@media screen and (min-width: 55em) {
-  .layout--projects {
-    grid-template-columns: repeat(2, 1fr); } }
-
-/* Layout: people */
-.layout--people {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin: 1.25em 0; }
-  .layout--people li::after {
-    content: "|";
-    display: inline-block;
-    width: auto;
-    padding: 0 .3em;
-    /*font-size: 120%;*/
-    /*font-weight: 700;*/
-    text-align: center;
-    line-height: 1.5;
-    color: var(--col-typewest); }
-  .layout--people li:last-of-type::after {
-    content: ""; }
-
-.layout--people li {
-  display: inline-block; }
-
-/* .colophon */
-.layout--colophon {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 2rem;
-  padding: 3rem 4rem;
-  background-color: var(--col-bg);
-  color: var(--col-text-reverse); }
-
-.layout--colophon > * {
-  font-size: 16px;
-  font-size: 1.6rem; }
-
-@media screen and (min-width: 64em) {
-  .layout--colophon {
-    grid-template-columns: repeat(3, 1fr); }
-  .layout--colophon p {
-    text-align: center; } }
-
-/**
- * -------------------------------------------------------------------------------------------------
- * Module
- * -------------------------------------------------------------------------------------------------
- */
 /*
  * Type project intro button
  * ----------------------------------------------------------- */
@@ -543,7 +524,9 @@ figure:hover figcaption {
   .fsjs-skin > .fsjs-wrapper {
     display: block !important; } }
 
-/* .social */
+/*
+ * Social
+ * ----------------------------------------------------------- */
 .module--social {
   list-style: none;
   margin: 0;
@@ -560,6 +543,9 @@ figure:hover figcaption {
   .layout--colophon .module--social {
     text-align: right; } }
 
+/*
+ * Specimen nav 
+ * ----------------------------------------------------------- */
 .layout--specimen-nav {
   display: grid;
   grid-template-columns: 1fr;
@@ -633,33 +619,5 @@ figure:hover figcaption {
     grid-column: span 2; }
   .layout--specimen-nav .nav--random {
     grid-column: 4 / -1; } }
-
-.module--floating-nav {
-  position: absolute;
-  top: 40px;
-  right: 0px;
-  z-index: 50;
-  transform: translate(0, 0) rotate(-90deg) skew(0) skewY(0) scaleX(1) scaleY(1);
-  transform-origin: bottom right;
-  box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, -5px 0 10px 0 rgba(254, 9, 6, 0.2);
-  border-top-left-radius: 1.5rem;
-  display: flex;
-  flex-direction: row; }
-
-.module--floating-nav button {
-  font-size: 16px;
-  font-size: 1.6rem;
-  font-weight: bold;
-  padding: 1em 1em; }
-
-.nav--random button {
-  display: block;
-  background-color: var(--col-typewest);
-  color: var(--col-text-reverse); }
-
-.nav--random button img {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 0.5em; }
 
 /*# sourceMappingURL=screen.min.css.map */

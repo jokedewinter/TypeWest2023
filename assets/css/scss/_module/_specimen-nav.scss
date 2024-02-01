@@ -1,3 +1,7 @@
+/*
+ * Specimen nav 
+ * ----------------------------------------------------------- */
+
 .layout--specimen-nav {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -22,9 +26,7 @@
 	@include link-effect();
 }
 
-.nav--specific a:hover {
-	color: var(--col-typewest);	
-}
+.nav--specific a:hover { color: var(--col-typewest);	 }
 
 .nav--specific a div { flex: 1 1 auto; }
 .nav--specific .prev { border-right: 1px solid var(--col-border); }
@@ -40,8 +42,6 @@
 	display: block;
 	font-weight: bold;
 }
-
-
 
 .layout--specimen-nav .nav--random { padding: 1em 0; }
 

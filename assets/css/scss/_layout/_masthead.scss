@@ -1,3 +1,6 @@
+/*
+ * Masthead 
+ * ----------------------------------------------------------- */
 
 .layout--masthead {
 	padding: 1em 2em;
@@ -6,7 +9,6 @@
 	align-items: center;
 	border-bottom: 1px solid var(--col-border);
 }
-
 
 .navigation {
 	@include no-bullets();
