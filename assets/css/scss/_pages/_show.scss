@@ -1,0 +1,54 @@
+.showcase {
+	
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+
+	padding: 3em;
+
+}
+
+
+.showcase h2 {
+	margin-bottom: 0;
+	@include font-size(4);
+	color: black;
+}
+
+.showcase p {
+	@include font-size(2);
+}
+
+.showcase article {
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+.showcase .double {
+	grid-column: span 2;
+	display: grid;
+	grid-template-columns: 2fr 80px 130px;
+	margin-left: 4em;
+	
+}
+
+.showcase .double h2 {
+	@include font-size(6);
+	text-align: left;
+	line-height: 1;
+}
+
+.showcase .double h3 {
+	@include font-size(4);
+	text-align: left;
+	line-height: 1;
+}
+.showcase .double figure {
+	background-color: var(--col-typewest);
+	border-radius: 50px;
+	align-self: center;
+	height: 80px;
+}
+
+.showcase .double figure img {
+	padding-top: 0.5em;
+}
