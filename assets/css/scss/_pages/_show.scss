@@ -5,13 +5,18 @@
 
 	padding: 3em;
 
+	background-color:var(--col-bg);
+}
+
+.showcase > * {
+	color: var(--col-text-light);
 }
 
 
 .showcase h2 {
 	margin-bottom: 0;
 	@include font-size(4);
-	color: black;
+	color: var(--col-page);
 }
 
 .showcase p {

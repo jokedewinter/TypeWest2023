@@ -466,13 +466,17 @@ figure:hover figcaption {
 .showcase {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 3em; }
+  padding: 3em;
+  background-color: var(--col-bg); }
+
+.showcase > * {
+  color: var(--col-text-light); }
 
 .showcase h2 {
   margin-bottom: 0;
   font-size: 40px;
   font-size: 4rem;
-  color: black; }
+  color: var(--col-page); }
 
 .showcase p {
   font-size: 20px;
