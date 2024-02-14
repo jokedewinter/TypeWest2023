@@ -1,0 +1,26 @@
+.showcase__square {
+	width: 1080px;
+	height: 1080px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+
+	padding: 3em;
+
+	background-color:var(--col-bg);
+	
+	margin: 3em auto;
+}
+
+.showcase .double figure {
+	background-color: var(--col-typewest);
+	border-radius: 100px;
+	align-self: center;
+	width: 200px;
+	height: 200px;
+}
+
+.showcase .double figure img {
+	width: 150px;
+	height: 150px;
+	margin-top: 1.2em;
+}

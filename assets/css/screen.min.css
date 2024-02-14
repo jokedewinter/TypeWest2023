@@ -463,56 +463,6 @@ figcaption {
 figure:hover figcaption {
   opacity: 1; }
 
-.showcase {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 3em;
-  background-color: var(--col-bg); }
-
-.showcase > * {
-  color: var(--col-text-light); }
-
-.showcase h2 {
-  margin-bottom: 0;
-  font-size: 40px;
-  font-size: 4rem;
-  color: var(--col-page); }
-
-.showcase p {
-  font-size: 20px;
-  font-size: 2rem; }
-
-.showcase article {
-  margin-bottom: 2em;
-  text-align: center; }
-
-.showcase .double {
-  grid-column: span 2;
-  display: grid;
-  grid-template-columns: 2fr 80px 130px;
-  margin-left: 4em; }
-
-.showcase .double h2 {
-  font-size: 60px;
-  font-size: 6rem;
-  text-align: left;
-  line-height: 1; }
-
-.showcase .double h3 {
-  font-size: 40px;
-  font-size: 4rem;
-  text-align: left;
-  line-height: 1; }
-
-.showcase .double figure {
-  background-color: var(--col-typewest);
-  border-radius: 50px;
-  align-self: center;
-  height: 80px; }
-
-.showcase .double figure img {
-  padding-top: 0.5em; }
-
 /*
  * Type project intro button
  * ----------------------------------------------------------- */
@@ -669,5 +619,76 @@ figure:hover figcaption {
     grid-column: span 2; }
   .layout--specimen-nav .nav--random {
     grid-column: 4 / -1; } }
+
+.showcase {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3em;
+  background-color: var(--col-bg); }
+
+.showcase > * {
+  color: var(--col-text-light); }
+
+.showcase h2 {
+  margin-bottom: 0;
+  font-size: 40px;
+  font-size: 4rem;
+  color: var(--col-page); }
+
+.showcase p {
+  font-size: 20px;
+  font-size: 2rem; }
+
+.showcase article {
+  margin-bottom: 2em;
+  text-align: center; }
+
+.showcase .double {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 2fr 80px 130px;
+  margin-left: 4em; }
+
+.showcase .double h2 {
+  font-size: 60px;
+  font-size: 6rem;
+  text-align: left;
+  line-height: 1; }
+
+.showcase .double h3 {
+  font-size: 40px;
+  font-size: 4rem;
+  text-align: left;
+  line-height: 1; }
+
+.showcase .double figure {
+  background-color: var(--col-typewest);
+  border-radius: 50px;
+  align-self: center;
+  height: 80px; }
+
+.showcase .double figure img {
+  padding-top: 0.5em; }
+
+.showcase__square {
+  width: 1080px;
+  height: 1080px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3em;
+  background-color: var(--col-bg);
+  margin: 3em auto; }
+
+.showcase .double figure {
+  background-color: var(--col-typewest);
+  border-radius: 100px;
+  align-self: center;
+  width: 200px;
+  height: 200px; }
+
+.showcase .double figure img {
+  width: 150px;
+  height: 150px;
+  margin-top: 1.2em; }
 
 /*# sourceMappingURL=screen.min.css.map */
